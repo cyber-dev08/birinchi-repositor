@@ -1,0 +1,129 @@
+@use "../function";
+@use "../variebles";
+.hero__img{
+    // position: relative;
+    
+    background-color: variebles.$f;
+} 
+.element{
+    // position: absolute;
+    left: 0;
+    bottom: 0;
+    background: variebles.$f;
+    // z-index: 2;
+}
+.about__me{
+    padding: 20px;
+    background-color: variebles.$z;
+    text-decoration: none;
+    border-radius: 7px;
+    padding-left: 35px;
+    padding-right: 35px;
+    color: variebles.$f;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+.bitmax{
+    min-height: 100%;
+    background-color: #fff;
+}
+.about__img{
+   
+    margin-top: 140px;
+    
+}
+.hiding{
+    text-align: center;
+    
+}
+.btn{
+    
+    text-decoration: none;
+    padding: 15px;
+    padding-right: 25px;
+    padding-left: 25px;
+    border: 1px solid gray;
+    color: rgba(79, 78, 78, 0.902);
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 1px;
+   
+}
+.about__text{
+    border-bottom: 1px solid rgb(186, 184, 184);
+}
+.paragrf{
+    color: gray;
+    font-size: 19.5px;
+    width: 50%;
+    align-items: center;
+    margin-left: 130px
+    
+}
+.hiding{
+    
+    text-align: start;
+}
+.sarlavha{
+    margin-left: 125px;
+    font-size: 40px;
+    color: variebles.$bl;
+}
+.btn{
+    margin-left: 125px;
+    
+}
+.links{
+    font-size: 40px;
+    color: rgb(47, 46, 46);
+    flex-basis: 30%;
+}
+.contact{
+    
+    
+    text-decoration: none;
+    padding: 15px;
+    border: 1px solid rgb(65, 64, 64);
+    color: rgb(65, 63, 63);
+    padding-left: 38px;
+    padding-right: 38px;
+    font-size: 12px;
+    letter-spacing: 2px;
+    line-height: 14px;
+}
+.list{
+    @include function.flex(space-between);
+    margin-bottom: 40px
+    
+}
+.about__text{
+    @include function.flex(space-between);
+    
+}
+.border{
+    border-bottom: 1px solid rgb(203, 203, 203);
+    width:50%;
+}
+.bokmark__items{
+    @include function.flex(space-between);
+}
+.bokmark__hiding{
+    font-size: 40px;
+    color: variebles.$bl;
+}
+.bokmark__paragrf{
+    color: variebles.$b;
+    font-size: 18px;
+    letter-spacing: 2px;
+    line-height: 20px;
+    width: 50%;
+}
+.button{
+    color: gray;
+    font-size: 12px;
+    letter-spacing: 2px;
+    line-height: 15px;
+    text-decoration: none;
+    border: 1px solid variebles.$b;
+    padding: 15px;
+}

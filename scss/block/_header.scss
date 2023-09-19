@@ -1,0 +1,23 @@
+@use "../function";
+@use "../variebles";
+.header__items{
+    @include function.flex(space-between)
+}
+.navbar{
+    flex-basis: 35%;
+}
+.navbar .navbar__ul{
+    @include function.flex(space-between);
+    list-style: none;
+}
+#home{
+    color:variebles.$s ;
+}
+.navbar .navbar__ul .navbar__Link{
+    color: variebles.$b;
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 2px;
+    line-height: 14px;
+    
+}

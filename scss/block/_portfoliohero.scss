@@ -1,0 +1,110 @@
+@use "../function";
+@use "../variebles";
+.hero__items_2{
+    @include function.flex(space-between);
+    
+}
+.manage{
+    flex-basis: 40%;
+   
+}
+.hero__items_2{
+    border-top: 1px solid rgb(212, 208, 208);
+    border-bottom: 1px solid rgb(214, 211, 211);
+    margin-top: 30px;
+}
+.hiding_2{
+  font-size: 40px;
+//   margin-left: 124px;
+  
+}
+.paragrf_2{
+   font-size: 18px;
+   line-height: 23px;
+   color: gray;
+   width: 50%;
+}
+.list_2{
+    text-decoration: none;
+    color: gray;
+    font-size: 12px;
+    letter-spacing: 2px;
+    line-height: 16px;
+    border: 1px solid gray;
+    padding: 15px;
+    // margin-left: 126px;
+    
+}
+.insure__items{
+    @include function.flex(space-between);
+    border-top: 1px solid rgb(210, 206, 206);
+    border-bottom: 1px solid rgb(213, 212, 212);
+}
+
+.insure__hiding{
+    font-size: 40px;
+    color: variebles.$bl;
+    margin-left: 30%;
+}
+.insure__paragrf{
+    color: gray;
+    letter-spacing: 1px;
+    line-height: 20px;
+    font-size: 17px;
+    width: 43%;
+    margin-left: 30%;
+}
+.insure__btn{
+    text-decoration: none;
+    color: variebles.$b;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    border: 1px solid gray;
+    padding: 15px;
+    margin-left: 29%;
+}
+.fylo__items{
+    @include function.flex(space-between);
+    border-bottom: 1px solid rgb(208, 204, 204); 
+}
+.fylo__hiding{
+    color: variebles.$b;
+    font-size: 40px;
+}
+.fylo__paragrf{
+    color: gray;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    width: 40%;
+}
+.fylo__btn{
+    text-decoration: none;
+    color: variebles.$bl;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 2px;
+    border: 1px solid variebles.$bl;
+    padding: 15px;
+}
+.text_2__items{
+    @include function.flex(space-between);
+}
+.text_2{
+    color: variebles.$bl;
+    font-size: 40px;
+}
+.text_4{
+    font-size: 12px;
+    text-decoration: none;
+    color: variebles.$bl;
+    border: 1px solid variebles.$bl;
+    padding: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.border_2{
+    border-top: 1px solid variebles.$bl;
+    width: 230px;
+}

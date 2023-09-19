@@ -1,0 +1,29 @@
+@use "../function";
+@use "../variebles";
+.footer__items{
+    @include function.flex(space-between);
+    background-color:variebles.$bl;
+     
+}
+
+.footer__nav{
+    flex-basis: 30%;
+}
+.footer__nav .footer__ul{
+    @include function.flex(space-between);
+    flex-basis: 20%;
+    
+}
+.footer__list{
+   list-style: none;
+   
+}
+.footer__link{
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 2px;
+    line-height: 14px;
+    
+}
+

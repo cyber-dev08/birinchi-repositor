@@ -1,0 +1,28 @@
+@use "../function";
+@use "../fonts";
+@use "../variebles";
+footer{
+    background-color: #33323D; 
+  
+}
+
+.footer__items__child_3{
+    @include function.flex(space-between); 
+
+}
+.navbar__card{
+
+    flex-basis: 40%; 
+}
+.card__ul{
+    @include function.flex(space-between); 
+    list-style: none;
+}
+.card__link{
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+    letter-spacing: 2px;
+    line-height: 16px;
+}
+
